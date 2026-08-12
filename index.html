@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Ducoff</title>
+<meta name="description" content="Nick Ducoff — 2x founder and investor.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <a href="#top" class="brand" id="brandLink">ND</a>
+  <nav>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="about">
+    <div class="hero-photo-frame">
+      <div class="hero-photo-frame-2">
+        <div class="hero-photo-frame-3">
+          <img id="heroPhoto" src="assets/nick-headshot.jpg" alt="Nick Ducoff">
+        </div>
+      </div>
+    </div>
+    <div class="hero-text">
+      <h1 id="heroGreeting"></h1>
+      <div id="heroBio"></div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <h2 id="experienceHeading"></h2>
+    <div id="experienceBody"></div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 id="portfolioHeading"></h2>
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">All Companies</button>
+      <button class="filter-btn" data-filter="featured">Featured ⭐</button>
+      <button class="filter-btn" data-filter="crypto">Crypto ⛓️</button>
+      <button class="filter-btn" data-filter="education">Education 📚</button>
+      <button class="filter-btn" data-filter="b2b">B2B ⚙️</button>
+    </div>
+    <div class="company-grid" id="companyGrid"></div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <h2>Contact Me</h2>
+  <div class="social-links" id="socialLinks"></div>
+</footer>
+
+<script src="content.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
